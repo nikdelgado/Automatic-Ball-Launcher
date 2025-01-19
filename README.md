@@ -1,11 +1,8 @@
 # Automatic-Ball-Launcher
 
-This project uses a VL53L0X LIDAR sensor to detect proximity and control two motors and a servo for a ball-triggering system. The motors run at randomized speeds when an object is detected within range, and the servo releases the ball.
+I created this project for my dog who is always wanting me to throw his ball. This project uses a VL53L0X Time-of-Flight sensor to detect when a ball is dropped into the funnel. When detected, the motors will spin up and a servo will release the ball. 
 
-## Features
-    •	LIDAR Detection: Uses the VL53L0X sensor to detect objects within 50mm range.
-    •	Motor Control: Operates two motors with adjustable speed using PWM signals.
-    •	Servo Actuation: Releases a ball via a servo mechanism triggered by object detection.
-    •	Randomized Motor Speed: Adds variability for more dynamic motor operation.
 
 ![](images/IMG_2369.HEIC "My dog loves his automatic ball launcher.")
+<img src="images/IMG_2368.HEIC" alt="Ball Launcher System" width="500">
+<img src="images/IMG_2369.HEIC" alt="Ball Launcher System" width="500">
